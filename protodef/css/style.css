@@ -2,9 +2,7 @@
 padding: 10px;
 /*background: white;*/
 }
-.row-fluid [class*="span"]{
-	min-height: 0px;
-}
+
 body{
 	/*background:  #F7F7F7;*/
 	margin: 0px;
@@ -518,4 +516,8 @@ width: 5px;
 
 #voletLG .content {
 	max-width: 1000px;
+}
+
+#doc2p4, #doc2p2, #doc2p3{
+	display: none;
 }

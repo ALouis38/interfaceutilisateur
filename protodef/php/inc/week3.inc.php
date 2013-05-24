@@ -7,7 +7,7 @@
 	</div>
 	<div class="row-fluid">
 		<div class="span12 titreAct">
-			<div class="titreAChange span7">
+			<div class="titreAChange span12">
 				<!-- <img src="img/document.png" class="offset1"/>Office vocabulary (Match the image with the word) -->
 			</div>
 				
@@ -43,23 +43,57 @@
 						
 							<div class="pagination pull-right">
 								<ul>
-									<li><a href="#">Précédent</a></li>
-									<li><a href="#">1</a></li>
-									<li><a href="#">2</a></li>
-									<li><a href="#">3</a></li>
-									<li><a href="#">4</a></li>
-									<li><a href="#">Suivant</a></li>
+									
+									<li class="menuPage"><a href="#" id="clicDoc2p1">1</a></li>
+									<li class="menuPage"><a href="#" id="clicDoc2p2">2</a></li>
+									<li class="menuPage"><a href="#" id="clicDoc2p3">3</a></li>
+									<li class="menuPage"><a href="#" id="clicDoc2p4">4</a></li>
+									
 								</ul>
+
 							
 						</div>
-					<h3>Série d'exercices 1</h3>
+						<div id="doc2p1">
+							<h3>Série d'exercices 1</h3>
 
-					<ul>
-						<li><a href="">Lien vers exercice 1</a></li>
-						<li><a href="">Lien vers exercice 2</a></li>
-						
+							<ul>
+								<li><a href="">Lien vers exercice 1</a></li>
+								<li><a href="">Lien vers exercice 2</a></li>
+								
 
-					</ul>
+							</ul>
+						</div>
+						<div id="doc2p2">
+							<h3>Série d'exercices 2</h3>
+
+							<ul>
+								<li><a href="">Lien vers exercice 1</a></li>
+								<li><a href="">Lien vers exercice 2</a></li>
+								
+
+							</ul>
+						</div>
+						<div id="doc2p3">
+							<h3>Série d'exercices 3</h3>
+
+							<ul>
+								<li><a href="">Lien vers exercice 1</a></li>
+								<li><a href="">Lien vers exercice 2</a></li>
+								
+
+							</ul>
+						</div>
+						<div id="doc2p4">
+							<h3>Série d'exercices 4</h3>
+
+							<ul>
+								<li><a href="">Lien vers exercice 1</a></li>
+								<li><a href="">Lien vers exercice 2</a></li>
+								
+
+							</ul>
+						</div>
+
 					</div>
 					<div class="tab-pane" id="doc3">
 					<h3>Série d'exercices 1</h3>

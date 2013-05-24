@@ -114,6 +114,15 @@ var hauteur2 = $("#voletH2").css("height");
 	$('.invisibleLi').contextMenu(menuInti,{theme:'vista'});
 	$('.visibleLi').contextMenu(menuInti,{theme:'vista'});
 
+	/*Menu Outils*/
+	var menuPage = [
+	
+	{'Supprimer page':function(menuItem,menu) { $(this).css('display','none'); } },
+	{'Insérer page (pas encore disponible)':function(menuItem,menu) { } }
+	];
+	
+	$('.menuPage').contextMenu(menuPage,{theme:'vista'});
+
 
 
 	/*Fonctions servant à éditer le nom des éléments*/
@@ -375,6 +384,22 @@ var hauteur2 = $("#voletH2").css("height");
 
 		$(".nano").nanoScroller();
 		/*$(".nano").nanoScroller({ contentClass: 'contentG' });*/
+
+		$("#clicDoc2p1").click(function(){
+			ouvrirPage("#doc2p1");
+		});
+
+		$("#clicDoc2p2").click(function(){
+			ouvrirPage("#doc2p2");
+		});
+
+		$("#clicDoc2p3").click(function(){
+			ouvrirPage("#doc2p3");
+		});
+
+		$("#clicDoc2p4").click(function(){
+			ouvrirPage("#doc2p4");
+		});
 })
 
 

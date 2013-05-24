@@ -155,3 +155,30 @@ function reduire(elem){
 		$("#reduireH").css("display","none");
 	}
 }
+
+function ouvrirPage(id){
+	if (id=="#doc2p1") {
+		$("#doc2p1").css("display","block");
+		$("#doc2p2").css("display","none");
+		$("#doc2p3").css("display","none");
+		$("#doc2p4").css("display","none");
+	}
+	else if (id=="#doc2p2") {
+		$("#doc2p1").css("display","none");
+		$("#doc2p2").css("display","block");
+		$("#doc2p3").css("display","none");
+		$("#doc2p4").css("display","none");
+	}
+	else if (id=="#doc2p3") {
+		$("#doc2p1").css("display","none");
+		$("#doc2p2").css("display","none");
+		$("#doc2p3").css("display","block");
+		$("#doc2p4").css("display","none");
+	}
+	else if (id=="#doc2p4") {
+		$("#doc2p1").css("display","none");
+		$("#doc2p2").css("display","none");
+		$("#doc2p3").css("display","none");
+		$("#doc2p4").css("display","block");
+	}
+}
