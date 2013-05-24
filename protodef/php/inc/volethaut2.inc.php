@@ -1,6 +1,5 @@
 <div id="voletH2">
-	<div  class="nano">
-		<div class="content">
+	<div id="scrollH2">
 		<ul>
 			<li class="invisibleLi"><i class="rendreVisible icon-eye-close"></i><i class="rendreInvisible icon-eye-open"></i><i class="icon-folder-open accordionButton on"></i> PASS! Anglais 2012-2013 Master MES
 				<ul class="accordionContent sortable2 connectedSortable">
@@ -142,7 +141,6 @@
 					</ul>
 			</li>
 		</ul>
-	</div>
 	</div>
 	<span class="ouvrirH2"><i class="icon-pencil "></i></span>
 	<span class="fermerH2"><i class="icon-pencil "></i></span>

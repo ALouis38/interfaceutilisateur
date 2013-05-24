@@ -385,6 +385,7 @@ var hauteur2 = $("#voletH2").css("height");
 		/*$(".nano").nanoScroller({disableResize:true});*/
 		/*$(".nano").nanoScroller({ contentClass: 'contentG' });*/
 		 $('#scrollH').perfectScrollbar();
+		 $('#scrollH2').perfectScrollbar();
 		 $('#scrollG').perfectScrollbar();
 		 $('#scrollD').perfectScrollbar();
 
