@@ -12,15 +12,15 @@
 							</div> -->
 						
 					<div id="voletLD">
-						
+						<div>
 						<!-- <hr>
 						<div class="row-fluid">
 							<div class="span12 ">Objets transversaux
 							</div>
 						</div> -->
-						<hr>
+						<div id="scrollD">
 						<div class="row-fluid A2">
-							<div class="span12 titreDroit">
+							<div class=" titreDroit">
 								En route vers le A2
 							</div>
 							
@@ -44,7 +44,7 @@
 						
 						<hr>
 						<div class="row-fluid parcoursPASS">
-							<div class="span12 titreDroit">
+							<div class="titreDroit">
 								Parcours PASS with Deirdre
 							</div>
 							<div class="row-fluid">
@@ -60,14 +60,15 @@
 						</div>
 						<hr>					
 						<div class="row-fluid">
-							<div class="span12 titreDroit">
+							<div class="titreDroit">
 								Mes outils
 							</div>
 							<div class="row-fluid">
 								<a href="#mesOutilsModal" data-toggle="modal"><div class="span12"><i class="icon-plus"></i></div></a>
 							</div>
-
 						</div>
+						</div>
+					</div>
 						<span class="fermerLD"><i class="icon-chevron-right "></i></span>
 						<span class="ouvrirLD"><i class="icon-chevron-left "></i></span>
 						<span id="deployerD"><i class="icon-plus "></i></span>

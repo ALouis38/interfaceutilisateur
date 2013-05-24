@@ -382,8 +382,11 @@ var hauteur2 = $("#voletH2").css("height");
 		});
 
 
-		$(".nano").nanoScroller();
+		/*$(".nano").nanoScroller({disableResize:true});*/
 		/*$(".nano").nanoScroller({ contentClass: 'contentG' });*/
+		 $('#scrollH').perfectScrollbar();
+		 $('#scrollG').perfectScrollbar();
+		 $('#scrollD').perfectScrollbar();
 
 		$("#clicDoc2p1").click(function(){
 			ouvrirPage("#doc2p1");

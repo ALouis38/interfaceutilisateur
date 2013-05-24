@@ -2,8 +2,7 @@
 	<div class="row-fluid">
 		<div class="span12">
 			<h5>Arborescence</h5>
-			<div class="nano">
-				<div class="content">
+			<div id="scrollH">
 			<ul>
 				<li><i class="icon-folder-open"></i> PASS! Anglais 2012-2013 Master MES
 					<ul>
@@ -77,7 +76,6 @@
 					</ul>
 				</li>
 			</ul>
-		</div>
 	</div>
 		</div>
 

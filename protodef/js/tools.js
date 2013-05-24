@@ -54,6 +54,7 @@ function fermer(elem){
 		$("#voletLD").animate({
 			right: "-100"
 		});
+		$(".titreDroit").css("width","100px");
 		$(".ouvrirLD").css("display","block");
 		$(".fermerLD").css("display","none");
 	}
@@ -126,6 +127,7 @@ function deployer(elem){
 		$("#voletLD").animate({
 		right: "0"
 		});
+		$(".titreDroit").css("width","100%");
 		$(".ouvrirLD").css("display","none");
 		$(".fermerLD").css("display","block");
 
@@ -146,6 +148,7 @@ function reduire(elem){
 
 	else if (elem=="#reduireD") {
 		$(".titreCacheD").fadeOut();
+		$(".titreDroit").css("width","100px");
 		$("#deployerD").css("display","block");
 		$("#reduireD").css("display","none");
 	}

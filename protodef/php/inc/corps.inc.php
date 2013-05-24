@@ -1,8 +1,8 @@
 
 	<!-- Chemins -->
 	<?php require_once("volethaut.inc.php"); ?>
-	<!-- Volet édition arborescence -->
-	<?php require_once("volethaut2.inc.php"); ?>
+	<!-- Volet édition arborescence 
+	<?php require_once("volethaut2.inc.php"); ?>-->
 <!-- Corps -->
 <div class=" corps ">
 			
