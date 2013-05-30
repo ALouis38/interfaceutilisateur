@@ -1,10 +1,9 @@
 [class*="span"] {
 padding: 10px;
-/*background: white;*/
+
 }
 
 body{
-	/*background:  #F7F7F7;*/
 	margin: 0px;
 }
 
@@ -35,14 +34,12 @@ body{
 
 .act{
 	background: white;
-	/*height: 255px;*/
-	
 	border: solid #898989 1px; 
 }
 .corps{
 	width: 75%;
 	height: 100%;
-	margin-left: 175px;
+	margin-left: 200px;
 	margin-top: 100px;
 	
 
@@ -94,12 +91,12 @@ img{
 #voletLG {
     position: fixed;
     left: -70px;
-    top: 70px;
+    top: 90px;
 	background: #F7F7F7;
 	border-radius: 0px 10px 10px 0px;
 	border: solid #C7C7C7 1px; 
 	min-width: 50px;
-	height: 500px;
+	height: 80%;
 	box-shadow: 0px 0px 10px #888888;
 	padding: 10px;
 
@@ -181,8 +178,8 @@ img{
 #voletLD{
 	position: fixed;
 	min-width: 90px;
-	height: 500px;
-	top: 70px;
+	height: 80%;
+	top: 90px;
 	right: -100px;
 	background: #F7F7F7;
 	border-radius: 10px 0px 0px 10px;
@@ -240,7 +237,7 @@ img{
 	border-radius: 0px 0px 10px 10px;
 	border: solid #C7C7C7 1px; 
 	padding: 5px;
-
+	z-index: 100;
 
 
 }
@@ -299,6 +296,7 @@ img{
 	border-radius: 0px 0px 10px 10px;
 	border: solid #C7C7C7 1px; 
 	padding: 5px;
+	z-index: 99;
 
 }
 #voletH2 .ouvrirH2, #voletH2 .fermerH2 {
@@ -371,6 +369,7 @@ ul{
 	position: relative;
 	top: -35px;
 	right: 0px;
+
 }
 
 
@@ -455,8 +454,28 @@ width: 5px;
 	font-size: 11px;
 }
 
+#clicWeek1{
+	display: none;
+}
+
+#clicWeek2{
+	display: none;
+}
+
 #clicWeek3{
 	
+}
+
+#week3Doc2p2{
+	display: none;
+}
+
+#clicWeek4{
+	display: none;
+}
+
+#clicWeek5{
+	display: none;
 }
 
 #clicEtape2{
@@ -494,32 +513,6 @@ width: 5px;
 	float: right;
 }
 
-/*#voletH .nano { 
-	height: 250px; 
-}
-
-#voletH .nano .content { 
-	padding: 1px; 
-}*/
-
-/*#voletH .nano .pane   { 
-	background: #F0F0F0; 
-}
-
-#voletH .nano .slider { 
-	background: #C0C0C0; 
-}*/
-
-/*#voletLG .nano {
-	height: 200px;
-	
-
-}
-
-#voletLG .content {
-	padding: 20px;
-}*/
-
 #scrollH, #scrollH2{
 	height: 200px;
 	overflow: hidden;
@@ -529,13 +522,14 @@ width: 5px;
 
 #scrollG{
 	position: relative;
-	height: 400px;
+	height: 95%;
 	overflow: hidden;
 	padding: 5px;
+	margin: 5px;
 }
 
 #scrollD{
-	height: 400px;
+	height: 95%;
 	overflow: hidden;
 	position: relative;
 
@@ -543,4 +537,11 @@ width: 5px;
 
 #doc2p4, #doc2p2, #doc2p3{
 	display: none;
+}
+
+.imgCorps{
+	height: 300px;
+	border: solid 1px #D7D7D7;
+	padding: 2px;
+	margin: 10px;
 }

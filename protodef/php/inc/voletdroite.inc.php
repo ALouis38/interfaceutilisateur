@@ -23,7 +23,8 @@
 							<div class=" titreDroit">
 								En route vers le A2
 							</div>
-							
+					<ul class="sortableD">
+						<li>
 							<div class="row-fluid outil charte">
 								<div class="span12 ">
 									<a href="#charteModal" class="" data-toggle="modal">
@@ -32,14 +33,18 @@
 									</a>
 								</div>
 							</div>
+						</li>
+						<li>
 							<div class="row-fluid outil forumCours">
-							<div class="span12">
-								<a href="#forumCoursModal" class=""  data-toggle="modal">
-									<img src="img/forum.png" rel="popover" data-content="Forum (objet transversal cours)" class="gauche menuTools"/>
-									<span class="titreCacheD">Forum (objet transversal cours)</span>
-								</a>
+								<div class="span12">
+									<a href="#forumCoursModal" class=""  data-toggle="modal">
+										<img src="img/forum.png" rel="popover" data-content="Forum (objet transversal cours)" class="gauche menuTools"/>
+										<span class="titreCacheD">Forum (objet transversal cours)</span>
+									</a>
+								</div>
 							</div>
-						</div>
+						</li>
+					</ul>
 						</div>
 						
 						<hr>
@@ -48,6 +53,8 @@
 								Parcours PASS with Deirdre
 							</div>
 							<div class="row-fluid">
+					<ul class="sortableD">
+						<li>
 							<div class="row-fluid outil forumUnite">
 								<div class="span12 ">
 									<a href="#forumUniteModal" class=""  data-toggle="modal">
@@ -56,6 +63,8 @@
 									</a>
 								</div>
 							</div>
+						</li>
+					</ul>
 						</div>
 						</div>
 						<hr>					

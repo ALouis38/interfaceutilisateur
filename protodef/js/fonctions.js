@@ -180,6 +180,23 @@ var hauteur2 = $("#voletH2").css("height");
 	});
 	$(".sortable2").disableSelection();
 
+	/*Fonctions de déplacement des éléments dans le volet de gauche*/
+
+	$("#sortableFormation").sortable();
+	$("#sortableFormation").disableSelection();
+
+	$(".sortableG").sortable({
+		connectWith: ".sortableG"
+	});
+	$(".sortableG").disableSelection();	
+
+	/*Fonctions de déplacement des éléments dans le volet de gauche*/
+
+	$(".sortableD").sortable({
+		connectWith: ".sortableD"
+	});
+	$(".sortableD").disableSelection();	
+
 	/*Fonctions-outils*/
 	$('.supprimer').click(function(){
 			$(this).parent().addClass('invisibleLi');
@@ -216,17 +233,95 @@ var hauteur2 = $("#voletH2").css("height");
 
 	/*Fonctions servant à changer le nom de l'activité en cours*/
 
-	$(".doc1").click(function(){
-		changerTitre(".doc1");
+	$(".week1Doc1").click(function(){
+		changerTitre(".week1Doc1");
 	});
 
-	$(".doc2").click(function(){
-		changerTitre(".doc2");
+	$(".week1Doc2").click(function(){
+		changerTitre(".week1Doc2");
 	});
 
-	$(".doc3").click(function(){
-		changerTitre(".doc3");
+	$(".week1Doc3").click(function(){
+		changerTitre(".week1Doc3");
 	});
+
+	$(".week1Doc4").click(function(){
+		changerTitre(".week1Doc4");
+	});
+
+	$(".week1Doc5").click(function(){
+		changerTitre(".week1Doc5");
+	});
+
+	$(".week2Doc1").click(function(){
+		changerTitre(".week2Doc1");
+	});
+
+	$(".week2Doc2").click(function(){
+		changerTitre(".week2Doc2");
+	});
+
+	$(".week2Doc3").click(function(){
+		changerTitre(".week2Doc3");
+	});
+
+	$(".week2Doc4").click(function(){
+		changerTitre(".week2Doc4");
+	});
+
+	$(".week2Doc5").click(function(){
+		changerTitre(".week2Doc5");
+	});
+
+	$(".week3Doc1").click(function(){
+		changerTitre(".week3Doc1");
+	});
+
+	$(".week3Doc2").click(function(){
+		changerTitre(".week3Doc2");
+	});
+
+	$(".week3Doc3").click(function(){
+		changerTitre(".week3Doc3");
+	});
+
+	$(".week4Doc1").click(function(){
+		changerTitre(".week4Doc1");
+	});
+
+	$(".week4Doc2").click(function(){
+		changerTitre(".week4Doc2");
+	});
+
+	$(".week4Doc3").click(function(){
+		changerTitre(".week4Doc3");
+	});
+
+	$(".week4Doc4").click(function(){
+		changerTitre(".week4Doc4");
+	});
+
+	$(".week4Doc5").click(function(){
+		changerTitre(".week4Doc5");
+	});
+
+	$(".week4Doc6").click(function(){
+		changerTitre(".week4Doc6");
+	});
+
+	$(".week5Doc1").click(function(){
+		changerTitre(".week5Doc1");
+	});
+
+	$(".week5Doc2").click(function(){
+		changerTitre(".week5Doc2");
+	});
+
+	$(".week5Doc3").click(function(){
+		changerTitre(".week5Doc3");
+	});
+
+
 
 	/*Fonctions pour le placement d'origine des volets*/
 	$("#voletLD").animate({
@@ -267,6 +362,38 @@ var hauteur2 = $("#voletH2").css("height");
 		$("#week3>.icon-eye-close").next().css('display','inline-block');
 		$("#week3>.icon-eye-close").css('display','none');
 		var idRecup = "week3";
+		$("."+idRecup).addClass('outilVisible');
+		$("."+idRecup).removeClass('outil');
+
+		$("#week1").addClass('visibleLi');
+		$("#week1").removeClass('invisibleLi');
+		$("#week1>.icon-eye-close").next().css('display','inline-block');
+		$("#week1>.icon-eye-close").css('display','none');
+		var idRecup = "week1";
+		$("."+idRecup).addClass('outilVisible');
+		$("."+idRecup).removeClass('outil');
+
+		$("#week2").addClass('visibleLi');
+		$("#week2").removeClass('invisibleLi');
+		$("#week2>.icon-eye-close").next().css('display','inline-block');
+		$("#week2>.icon-eye-close").css('display','none');
+		var idRecup = "week2";
+		$("."+idRecup).addClass('outilVisible');
+		$("."+idRecup).removeClass('outil');
+
+		$("#week4").addClass('visibleLi');
+		$("#week4").removeClass('invisibleLi');
+		$("#week4>.icon-eye-close").next().css('display','inline-block');
+		$("#week4>.icon-eye-close").css('display','none');
+		var idRecup = "week4";
+		$("."+idRecup).addClass('outilVisible');
+		$("."+idRecup).removeClass('outil');
+
+		$("#week5").addClass('visibleLi');
+		$("#week5").removeClass('invisibleLi');
+		$("#week5>.icon-eye-close").next().css('display','inline-block');
+		$("#week5.icon-eye-close").css('display','none');
+		var idRecup = "week5";
 		$("."+idRecup).addClass('outilVisible');
 		$("."+idRecup).removeClass('outil');
 
@@ -326,37 +453,128 @@ var hauteur2 = $("#voletH2").css("height");
 		$("."+idRecup).addClass('outilVisible');
 		$("."+idRecup).removeClass('outil');
 
-		$(".tabDoc1").click(function(){
-			changerTab(".doc1");
+
+		/*Navigation volet gauche*/
+		
+
+		$(".clicParcoursPass").click(function(){
+			afficherNiveau(".clicParcoursPass");
 		});
 
-		$(".tabDoc2").click(function(){
-			changerTab(".doc2");
+		$(".clicEtape2").click(function(){
+			afficherNiveau(".clicEtape2");
 		});
 
-		$(".tabDoc3").click(function(){
-			changerTab(".doc3");
+		$(".clicWeek1").click(function(){
+			afficherNiveau(".clicWeek1");
 		});
 
-	$(".clicParcoursPass").click(function(){
-			$("#clicParcoursPass").css("display","block");
-			$("#clicEtape2").css("display","none");
-			$("#clicWeek3").css("display","none");
-			
-		});
+			$(".tabWeek1Doc1").click(function(){
+				changerTab(".week1Doc1");
+			});
 
-	$(".clicEtape2").click(function(){
-			$("#clicParcoursPass").css("display","none");
-			$("#clicEtape2").css("display","block");
-			$("#clicWeek3").css("display","none");
+			$(".tabWeek1Doc2").click(function(){
+				changerTab(".week1Doc2");
+			});
+
+			$(".tabWeek1Doc3").click(function(){
+				changerTab(".week1Doc3");
+			});
+
+			$(".tabWeek1Doc4").click(function(){
+				changerTab(".week1Doc4");
+			});
+
+			$(".tabWeek1Doc5").click(function(){
+				changerTab(".week1Doc5");
+			});
+
+
+		$(".clicWeek2").click(function(){
+			afficherNiveau(".clicWeek2");
 		});
+			$(".tabWeek2Doc1").click(function(){
+				changerTab(".week2Doc1");
+			});
+
+			$(".tabWeek2Doc2").click(function(){
+				changerTab(".week2Doc2");
+			});
+
+			$(".tabWeek2Doc3").click(function(){
+				changerTab(".week2Doc3");
+			});
+
+			$(".tabWeek2Doc4").click(function(){
+				changerTab(".week2Doc4");
+			});
+
+			$(".tabWeek2Doc5").click(function(){
+				changerTab(".week2Doc5");
+			});
 
 		$(".clicWeek3").click(function(){
-			$("#clicParcoursPass").css("display","none");
-			$("#clicEtape2").css("display","none");
-			$("#clicWeek3").css("display","block");
+			afficherNiveau(".clicWeek3");
 		});
 
+			$(".tabWeek3Doc1").click(function(){
+				changerTab(".week3Doc1");
+			});
+
+			$(".tabWeek3Doc2").click(function(){
+				changerTab(".week3Doc2");
+			});
+
+			$(".tabWeek3Doc3").click(function(){
+				changerTab(".week3Doc3");
+			});
+
+		$(".clicWeek4").click(function(){
+			afficherNiveau(".clicWeek4");
+		});
+
+			$(".tabWeek4Doc1").click(function(){
+				changerTab(".week4Doc1");
+			});
+
+			$(".tabWeek4Doc2").click(function(){
+				changerTab(".week4Doc2");
+			});
+
+			$(".tabWeek4Doc3").click(function(){
+				changerTab(".week4Doc3");
+			});
+
+			$(".tabWeek4Doc4").click(function(){
+				changerTab(".week4Doc4");
+			});
+
+			$(".tabWeek4Doc5").click(function(){
+				changerTab(".week4Doc5");
+			});
+
+			$(".tabWeek4Doc6").click(function(){
+				changerTab(".week4Doc6");
+			});
+
+		$(".clicWeek5").click(function(){
+			afficherNiveau(".clicWeek5");
+		});
+
+			$(".tabWeek5Doc1").click(function(){
+				changerTab(".week5Doc1");
+			});
+
+			$(".tabWeek5Doc2").click(function(){
+				changerTab(".week5Doc2");
+			});
+
+			$(".tabWeek5Doc3").click(function(){
+				changerTab(".week5Doc3");
+			});
+
+
+		/*Déploiement des volets*/
 		$("#deployerG").click(function(){
 			deployer("#deployerG");
 		});
@@ -381,13 +599,20 @@ var hauteur2 = $("#voletH2").css("height");
 			reduire("#reduireH");
 		});
 
+		/*Fonction changements de pages*/
 
-		/*$(".nano").nanoScroller({disableResize:true});*/
-		/*$(".nano").nanoScroller({ contentClass: 'contentG' });*/
-		 $('#scrollH').perfectScrollbar();
-		 $('#scrollH2').perfectScrollbar();
-		 $('#scrollG').perfectScrollbar();
-		 $('#scrollD').perfectScrollbar();
+		$("#clicWeek3Doc2p1").click(function(){
+			ouvrirPage("#clicWeek3Doc2p1");
+		});
+
+		$("#clicWeek3Doc2p2").click(function(){
+			ouvrirPage("#clicWeek3Doc2p2");
+		});
+
+		$('#scrollH').perfectScrollbar({wheelSpeed:50});
+		$('#scrollH2').perfectScrollbar({wheelSpeed:50});
+		$('#scrollG').perfectScrollbar({wheelSpeed:50});
+		$('#scrollD').perfectScrollbar({wheelSpeed:50});
 
 		$("#clicDoc2p1").click(function(){
 			ouvrirPage("#doc2p1");

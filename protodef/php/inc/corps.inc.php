@@ -10,7 +10,11 @@
 	
 
 <!-- Titre espace -->
-	<?php require_once("week3.inc.php"); ?>
-	<?php require_once("etape2.inc.php"); ?>
-	<?php require_once("parcourspass.inc.php"); ?>
+	<?php 	require_once("week1.inc.php"); 
+			require_once("week2.inc.php"); 
+			require_once("week3.inc.php"); 
+			require_once("week4.inc.php"); 
+			require_once("week5.inc.php"); 
+			require_once("etape2.inc.php"); 
+			require_once("parcourspass.inc.php"); ?>
 </div>

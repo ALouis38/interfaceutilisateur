@@ -33,8 +33,24 @@
 									<li><i class="icon-folder-open"></i> Etape 2- Things around you
 											<ul>
 												<li><i class="icon-wrench"></i> Livrets de Liaison</li>
-												<li class="titreCacheH"><i class="icon-folder-close"></i> Week 1- Describing people</li>
-												<li class="titreCacheH"><i class="icon-folder-close"></i> Week 2- Describing places</li>
+												<li class="titreCacheH"><i class="icon-folder-close"></i> Week 1- Describing people
+													<ul>
+														<li><i class="icon-file"></i> The Flatmates: At the Airport </li>
+														<li><i class="icon-file"></i> What are your best qualities? </li>
+														<li><i class="icon-file"></i> The Flatmates: The Year of the dog </li>
+														<li><i class="icon-file"></i> The Flatmates: Not so much </li>
+														<li><i class="icon-file"></i> Have or have got </li>
+													</ul>
+												</li>
+												<li class="titreCacheH"><i class="icon-folder-close"></i> Week 2- Describing places
+													<ul>
+														<li><i class="icon-file"></i> Listen to six people describe where they like to live </li>
+														<li><i class="icon-file"></i> Countryside </li>
+														<li><i class="icon-file"></i> Town jigsaw puzzle</li>
+														<li><i class="icon-file"></i> Listen to six people describing the best places to live </li>
+														<li><i class="icon-file"></i> Past Simple</li>
+													</ul>
+												</li>
 												<li><i class="icon-folder-open"></i> Week 3- Describing things
 													<ul>
 														<li><i class="icon-file"></i> Office vocabulary (Match the image with the word)</li>
@@ -42,8 +58,22 @@
 														<li><i class="icon-file"></i> Office Supplies Hangman (Play this game to test your knowledge on office vocabulary)</li>
 													</ul>
 												</li>
-												<li class="titreCacheH"><i class="icon-folder-close"></i> Week 4- Let's Review!</li>
-												<li class="titreCacheH"><i class="icon-folder-close"></i> Week 5- Writing</li>
+												<li class="titreCacheH"><i class="icon-folder-close"></i> Week 4- Let's Review!
+													<ul>
+														<li><i class="icon-file"></i> Describing people </li>
+														<li><i class="icon-file"></i> Past Simple </li>
+														<li><i class="icon-file"></i> Shapes </li>
+														<li><i class="icon-file"></i> In the Classroom </li>
+														<li><i class="icon-file"></i> Adjectives </li>
+													</ul>
+												</li>
+												<li class="titreCacheH"><i class="icon-folder-close"></i> Week 5- Writing
+													<ul>
+														<li><i class="icon-file"></i> How to Write an Article?</li>
+														<li><i class="icon-file"></i> The Simpsons</li>
+														<li><i class="icon-file"></i> Writing</li>
+													</ul>
+												</li>
 											</ul>
 									</li>
 									<li class="titreCacheH"><i class="icon-folder-close"></i>  Etape 3- Food & Drink
